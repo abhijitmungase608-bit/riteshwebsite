@@ -83,6 +83,33 @@ export interface Story {
 export const stories: Story[] = [
   {
     id: 1,
+    couple: "Pre-Wedding Romance",
+    location: "Pune & Wai, Maharashtra",
+    venue: "Heritage Temples & Golden Meadows",
+    date: "February 2025",
+    img: "/story1/1.jpg",
+    description: "From tranquil heritage temple corridors to sunlit meadow laughter and romantic sunset sails on the lake — an intimate, cinematic pre-wedding story capturing raw love, unspoken promises, and candid moments.",
+    quote: "From coffee dates to forever — every quiet glance whispered the beginning of a lifetime.",
+    gallery: [
+      "/story1/1.jpg",
+      "/story1/2.jpg",
+      "/story1/3.jpg",
+      "/story1/4.jpg",
+      "/story1/5.jpg",
+      "/story1/6.jpg",
+      "/story1/7.jpg",
+      "/story1/8.jpg",
+      "/story1/9.jpg",
+      "/story1/10.jpg",
+      "/story1/11.jpg",
+      "/story1/12.jpg",
+      "/story1/13.jpg",
+      "/story1/14.jpg",
+      "/story1/15.jpg",
+    ],
+  },
+  {
+    id: 2,
     couple: "Shyam & Sneha",
     location: "Dhule, Maharashtra",
     venue: "The Golden Leaf Resort, Dhule",
@@ -99,7 +126,7 @@ export const stories: Story[] = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     couple: "Mehr & Kashyap",
     location: "Lonavala, Maharashtra",
     venue: "Della Resort, Lonavala",
@@ -117,7 +144,7 @@ export const stories: Story[] = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     couple: "Komal & Kunal",
     location: "Pune, Maharashtra",
     venue: "The Ritz-Carlton, Pune",
@@ -134,7 +161,7 @@ export const stories: Story[] = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     couple: "Dhruv & Aanchal",
     location: "Udaipur, Rajasthan",
     venue: "Fateh Garh Palace, Udaipur",
@@ -151,7 +178,7 @@ export const stories: Story[] = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     couple: "Shivam & Pooja",
     location: "Goa",
     venue: "W Goa, Vagator",
@@ -168,7 +195,7 @@ export const stories: Story[] = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     couple: "Aditi & Rohan",
     location: "Mumbai, Maharashtra",
     venue: "JW Marriott Sahar, Mumbai",
@@ -202,7 +229,7 @@ export const films: Film[] = [
     id: 1,
     title: "MUNNAR",
     subtitle: "Prem & Sai | Kerala Hills",
-    src: "/videos/film-1.MOV",
+    src: "/videos/film-1.mp4",
     poster: "/images/compressed_DSC01042.jpg",
     duration: "03:45",
     category: "Pre-Wedding",
@@ -310,6 +337,23 @@ export interface PortfolioItem {
 }
 
 export const portfolioItems: PortfolioItem[] = [
+  // New Pre-Wedding Shoots
+  { id: 101, title: "Rose Petals & Heritage Vows", category: "Pre-Wedding", location: "Pune", src: "/portfolio/pre-wedding/1.jpg", aspect: "portrait" },
+  { id: 102, title: "Temple Archway Walk", category: "Pre-Wedding", location: "Wai", src: "/portfolio/pre-wedding/2.jpg", aspect: "portrait" },
+  { id: 103, title: "Hand in Hand Through History", category: "Pre-Wedding", location: "Wai", src: "/portfolio/pre-wedding/3.jpg", aspect: "portrait" },
+  { id: 104, title: "Stone Corridor Embrace", category: "Pre-Wedding", location: "Pune", src: "/portfolio/pre-wedding/4.jpg", aspect: "portrait" },
+  { id: 105, title: "Aerial Petal Romance", category: "Pre-Wedding", location: "Pune", src: "/portfolio/pre-wedding/5.jpg", aspect: "landscape" },
+  { id: 106, title: "Blossom Whispers", category: "Pre-Wedding", location: "Pune", src: "/portfolio/pre-wedding/6.jpg", aspect: "portrait" },
+  { id: 107, title: "Cozy Indoor Reading Moment", category: "Pre-Wedding", location: "Pune", src: "/portfolio/pre-wedding/7.jpg", aspect: "landscape" },
+  { id: 108, title: "Coffee Dates to Forever", category: "Pre-Wedding", location: "Pune", src: "/portfolio/pre-wedding/8.jpg", aspect: "portrait" },
+  { id: 109, title: "Golden Meadow Laughter", category: "Pre-Wedding", location: "Wai", src: "/portfolio/pre-wedding/9.jpg", aspect: "portrait" },
+  { id: 110, title: "Strolling Through Petals", category: "Pre-Wedding", location: "Pune", src: "/portfolio/pre-wedding/10.jpg", aspect: "portrait" },
+  { id: 111, title: "Sunset Yacht Romance", category: "Pre-Wedding", location: "Lavasa", src: "/portfolio/pre-wedding/11.jpg", aspect: "portrait" },
+  { id: 112, title: "Evening Horizon Gazing", category: "Pre-Wedding", location: "Lavasa", src: "/portfolio/pre-wedding/12.jpg", aspect: "portrait" },
+  { id: 113, title: "Sunflowers & Vintage Memories", category: "Pre-Wedding", location: "Pune", src: "/portfolio/pre-wedding/13.jpg", aspect: "portrait" },
+  { id: 114, title: "Golden Hour Candid Gaze", category: "Pre-Wedding", location: "Pune", src: "/portfolio/pre-wedding/14.jpg", aspect: "portrait" },
+  { id: 115, title: "Joyful Moments in Meadow", category: "Pre-Wedding", location: "Pune", src: "/portfolio/pre-wedding/15.jpg", aspect: "portrait" },
+  // Weddings & Events
   { id: 1, title: "Royal Couple Portrait", category: "Weddings", location: "Pune", src: "/images/compressed_DSC07206 copy.jpg", aspect: "portrait" },
   { id: 2, title: "Mandap Vows & Flowers", category: "Weddings", location: "Udaipur", src: "/images/compressed_DSC07302 copy.jpg", aspect: "portrait" },
   { id: 3, title: "Joyful Haldi Moments", category: "Haldi & Mehndi", location: "Lonavala", src: "/images/compressed_DSC07335 copy.jpg", aspect: "landscape" },
